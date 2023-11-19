@@ -1,7 +1,8 @@
 import './reduceButton.css'
-function ReduceButton({onClickHandlerm}){
+function ReduceButton({onClickHandler, children }){
     return(
-        <button onClick={onClickHandlerm}>-</button>
+        <button onClick={onClickHandler}>{children}</button>
+        
     )
 }
 export default ReduceButton
