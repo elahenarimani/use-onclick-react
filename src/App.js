@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './components/Button/Button'
-import AddButton from './components/Button/Button';
-import ReduceButton from './components/reduceButton/ReduceButton';
+import Button from './components/Button/Button'
+
 import { useState} from 'react';
 
 
